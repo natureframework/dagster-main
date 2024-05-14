@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export DAGSTER_HOME=$1
+mkdir -p "$DAGSTER_HOME"
+dagster dev

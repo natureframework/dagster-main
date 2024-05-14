@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dagster-main"
+version = "0.1.0"
+description = "Main Dagster workspace"
+authors = ["Ivan Dustin Bilon <ivan22.dust@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+dagster = "^1.6.0"
+dagster-webserver = "^1.7.5"
+dagster-gospels = {git = "https://github.com/natureframework/dagster-gospels.git"}
+dagster-pieces = {git = "https://github.com/natureframework/dagster-pieces.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
