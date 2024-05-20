@@ -360,7 +360,7 @@ reference-parser = {git = "https://github.com/natureframework/reference-parser.g
 type = "git"
 url = "https://github.com/natureframework/dagster-pieces.git"
 reference = "HEAD"
-resolved_reference = "9ae52cb5e3b7568d3097d111114c0b579534dd3c"
+resolved_reference = "d8f4b3a447a585de3091dca1fc61f36fc36b5cbc"
 
 [[package]]
 name = "dagster-pipes"
