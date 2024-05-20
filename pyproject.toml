@@ -12,6 +12,7 @@ dagster = "^1.6.0"
 dagster-webserver = "^1.7.5"
 dagster-gospels = {git = "https://github.com/natureframework/dagster-gospels.git"}
 dagster-pieces = {git = "https://github.com/natureframework/dagster-pieces.git"}
+dagster-vocabulary = {git = "https://github.com/natureframework/dagster-vocabulary.git"}
 
 
 [build-system]

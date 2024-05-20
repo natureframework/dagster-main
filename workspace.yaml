@@ -1,3 +1,4 @@
 load_from:
   - python_module: dagster_gospels
   - python_module: dagster_pieces
+  - python_module: dagster_vocabulary

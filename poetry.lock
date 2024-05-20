@@ -374,6 +374,25 @@ files = [
 ]
 
 [[package]]
+name = "dagster-vocabulary"
+version = "0.1.0"
+description = "Words and definitions assets"
+optional = false
+python-versions = "^3.9"
+files = []
+develop = false
+
+[package.dependencies]
+dagster = "^1.6.0"
+pandas = "^2.1.4"
+
+[package.source]
+type = "git"
+url = "https://github.com/natureframework/dagster-vocabulary.git"
+reference = "HEAD"
+resolved_reference = "b17b2a11e1e703a9b85a8d33ddfd9164bca667b5"
+
+[[package]]
 name = "dagster-webserver"
 version = "1.7.5"
 description = "Web UI for dagster."
@@ -2375,4 +2394,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "f2f28bdb427746c7541c64ac0d187b413da21032b363e648888cc5761680a2df"
+content-hash = "3c6ff0f54a374142cc7c26f8ee13628af04c25236b069a190d5b27e87ff50ae8"
