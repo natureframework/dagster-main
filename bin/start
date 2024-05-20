@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -ex
-export DAGSTER_HOME=~/.natureframework/dagster/instance
-mkdir -p "$DAGSTER_HOME"
-poetry run dagster dev
