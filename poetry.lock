@@ -384,13 +384,14 @@ develop = false
 
 [package.dependencies]
 dagster = "^1.6.0"
+dagster-pieces = {git = "https://github.com/natureframework/dagster-pieces.git"}
 pandas = "^2.1.4"
 
 [package.source]
 type = "git"
 url = "https://github.com/natureframework/dagster-vocabulary.git"
 reference = "HEAD"
-resolved_reference = "b17b2a11e1e703a9b85a8d33ddfd9164bca667b5"
+resolved_reference = "182229961ba3f2af33b2da3c3843340537cbec71"
 
 [[package]]
 name = "dagster-webserver"
